@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-st.title('Ceci est ma page du projet')
+st.title('Bienvenu sur notre page des fêtes !')
 
-st.write("la voilà")
+st.write("vous voulez fêter bien? alors il faudra fêter avec ses amis! Trouvons-les")
 
 df= pd.read_csv('data.csv', sep=',')
 #df

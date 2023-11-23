@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 st.title('Bienvenu sur notre page des fêtes !')
 
-st.write("vous voulez fêter bien? alors il faudra fêter avec ses amis! Trouvons-les")
+st.write("vous voulez fêter bien? alors il faudra fêter avec ses amis! Trouvons-les dans les villes de plus de 1000 personnes :D")
 
 df= pd.read_csv('data.csv', sep=',')
 #df
